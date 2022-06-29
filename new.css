@@ -1,0 +1,31 @@
+.head1{
+   color:red;
+}
+.para2{
+   text-decoration: line-through;
+ 
+}
+.mark{
+   background-color: yellow;
+   color:tomato;
+}
+ul li{
+  letter-spacing: 2px;
+  color:tomato;
+}
+ol li{
+   color:tomato;
+
+}
+.para1{
+   color:red;
+}
+p{
+   color:tomato;
+}
+.prep1{
+   color:tomato;
+}
+.rose{
+   color:tomato;
+}
