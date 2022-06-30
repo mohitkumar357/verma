@@ -1,0 +1,118 @@
+.container{
+    margin: 0;
+    border: 10px groove yellowgreen;
+    height: auto;
+    background-image: url(./nature\ .jpg);
+    background-size: cover;
+   
+}
+.left-box{
+    margin: 20px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+    width: 380px;
+    background-color: brown;
+    color:yellow;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    border: 4px solid aqua;
+    border-radius: 32px;
+    text-align:start;
+    float: left;
+}
+.center-box{
+    padding-left: 5rem;
+    padding-right: 4rem;
+    height: 65px;
+    width: 180px;
+    background-color: brown;
+    font-style: italic;
+    color: yellow;
+    border: 4px solid aqua;
+    border-radius:32px;
+    display: flex;
+    position: absolute;
+    text-align: start;
+    left: 18rem;
+    top: 8rem;
+}
+.right-box{
+    margin: 12px ;
+    padding-left: 5rem;
+    padding-right:5rem;
+    width: 280px;
+    background-color: brown;
+    color:yellow;
+    font-size: 30px;
+    font-style: italic;
+    border: 4px solid aqua;
+    border-radius: 32px;
+    float: right;
+    
+}
+.offer{
+    margin: 250px 0 65px 0;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+}
+.profit{
+    background-color:orange;
+    font-size: 18px;
+    font-weight: bold;
+    width: 380px;
+    height: 380px;
+    margin-left: 46px;
+    padding: 60px 2px;
+    border: 5px dotted silver;
+    border-radius: 95%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.rose{
+    text-decoration: underline;
+}
+.form{
+    color:orangered;
+    background-color: whitesmoke;
+    border: 10px dashed red;
+    text-align: center;
+    width: 410px;
+    margin-left: 110px;
+}
+.head{
+    display: flex;
+    color: white;
+    width: 510px;
+    height: 75px;
+    margin: auto;
+    padding: 05px;
+    font-size: 15px;
+    font-style: italic;
+    border: 10px solid red;
+    background-color: black;
+    border-radius: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    flex-flow: wrap;
+    margin: 18px;
+    padding: 6px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.items{  color: grey;
+    background-color: brown;
+    border: 4px solid green;
+    border-radius: 30px;
+    margin: 10px;
+    width: 320px;
+    height: fit-content;
+}
+.div{
+    display: block;
+}
