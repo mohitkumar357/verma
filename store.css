@@ -1,0 +1,194 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    color: red;
+    border: 8px solid yellowgreen;
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    position: sticky;
+    left: 550px;
+    padding-top: 10px;
+    
+   
+}
+div{
+    display: block;
+}
+.boxes{
+    border: 5px;
+    height: 600px;
+    position: relative;
+   display: block;
+}
+
+div{
+    display:block;
+}
+
+.box1{
+    background-color: azure;
+    color: blue;
+    width: 300px;
+    height: 200px;
+    font-size: large;
+    font-style:oblique ;
+    font-weight: bolder;
+    padding: 10px 5px;
+    border: 5px solid yellow;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 2px;
+    left: 55px;
+
+
+}
+div{
+    display: block;
+}
+.box2{
+    background-color: azure;
+    color: blue;
+    width: 300px;
+    height: 300px;
+    font-size: medium;
+    font-style:oblique ;
+    font-weight: bolder;
+    padding: 10px 5px;
+    border: 5px solid yellow;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 2px;
+    right: 55px;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.box3{
+    background-color: azure;
+    color: blue;
+    width: 300px;
+    height: 300px;
+    font-size: medium;
+    font-style:oblique ;
+    font-weight: bolder;
+    padding: 10px 5px;
+    border: 5px solid yellow;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 2px;
+    left: 55px;
+    display: flex;
+
+}
+div{
+    display: block;
+}
+.box4{
+    background-color: azure;
+    color: blue;
+    width: 300px;
+    height: 300px;
+    font-size: medium;
+    font-style:oblique ;
+    font-weight: bolder;
+    padding: 10px 5px;
+    border: 5px solid yellow;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+   bottom: 2px;
+    right: 55px;
+    display: flex;
+
+}
+div{
+    display: block;
+}
+.head{
+    color: red;
+    font-size: medium;
+    text-align: center;
+
+}
+.rate{
+    color: brown;
+    font-size: 20px;
+
+}
+label{
+    cursor: default;
+}
+.offer-card{
+    color: crimson;
+    background-color:peru;
+    font-weight:bolder;
+    font-style: italic;
+    font-size: medium;
+    padding: 15px 10px 5px 20px;
+    border: 5px dotted red;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    bottom: 60px;
+    right: 420px;
+    left: 390px;
+
+}
+.offer1{
+    color: crimson;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+
+}
+.offer2{
+    color: aliceblue;
+    font-size: medium;
+    padding-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+.store{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.details{
+    color: blanchedalmond;
+    background-color: dodgerblue;
+    border: 10px solid pink;
+    text-align: center;
+}
+div{
+    display: block;
+}
+.store-items{
+    display: flex;
+    font-style: italic;
+    border:2px solid yellow;
+
+}
+.other{
+    text-align: center;
+    color: greenyellow;
+    background-color: darkorange;
+    margin: 6px;
+    box-sizing: border-box;
+    display: block;
+    font-style: italic;
+    align-items: center;
+}
