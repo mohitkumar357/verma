@@ -1,0 +1,238 @@
+.offer{
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+  
+    height:30px;
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+    
+    
+     text-decoration: underline;
+}
+div{
+    display: block;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+.rose{
+    width:60%;
+    height: 70px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(142 188 200);
+}
+div{
+    display: block;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+.flower{
+    margin-top: 5px;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.rose1{
+    margin-left: 0%;
+    margin-right: 0%;
+    border: 1px solid yellow;
+    border-radius: 20px;
+    background-color: rgb(50 250 180);
+}
+div{
+    display: block;
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+.rose11{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+body{
+    text-align: center;
+
+}
+.rose01{
+    width: 410px;
+   height: 100px;
+   border: 2px dotted pink;
+   background-color: seashell;
+   border-radius: 15px;
+   font-size: 18px;
+
+}
+div{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.flower1{
+    height: 30px;
+    width: 100%;
+    background-image: linear-gradient( to right, tomato ,white, red);
+    color: black;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+div{
+    display: block;
+    
+}
+body{
+    text-align: center;
+}
+.flower1{
+    color:blueviolet;
+    margin:30px;
+    padding-bottom: 20px 0;
+    text-align: center;
+    background-image: radial-gradient(to left yellow, white,purple);
+
+}
+.app{
+   background-color: cornsilk;
+    border: 1px dotted green;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-image: radial-gradient(ellipse, aqua,white,);
+}
+
+.appl{
+    color:chocolate;
+    font-weight:bold ;
+    text-align: center;
+    text-decoration: underline;
+    background-color: khaki;
+    border: 2 solid green;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.banana{
+    color:aliceblue;
+    padding: 10px;
+    background-color: rgb(210, 19, 19);
+    margin-top: 15px;
+    height: 45px;
+    font-size: 20px;
+    width:1085px
+}
+div{
+display: block;
+}
+body{
+    text-align: center;
+}
+.raja{
+    width: 85%;
+}
+div{
+    display:block;
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+.raja1{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+}
+.raja2{
+    background-color: greenyellow;
+    margin-top: 10px;
+    width: 380px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+}
+div{
+    display: block;
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+.raja3{
+    background-color:skyblue;
+    margin-top: 10px;
+    width: 380px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+}
+.raja11{
+    background-color: tomato;
+    margin-top: 10px;
+    width: 380px;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+}
+.raja4{
+    text-align: left;
+    background-color: chocolate;
+    color: wheat;
+    height: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+div{
+    display: block;
+
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+.paro{
+    text-align: left;
+    font-size: 20px;
+    width: 150px;
+    position: absolute;
+    background-color: rgb(244, 230, 244);
+    color: red;
+    top: 599px;
+    left:1150px;
+    padding: 3px;
+}
+div{
+    display: block;
+}
+.top{
+    background: purple;
+    font-weight: 500;
+    margin: 13px;
+    margin-bottom: 20px;
+}
+div{
+    display: block;
+}
+body{
+    text-align: center;
+    margin: 0%;
+}
+
+
+
+
