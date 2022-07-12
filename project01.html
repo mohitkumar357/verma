@@ -315,13 +315,13 @@ Used by both methods to find the next "country" (actually, the row and column of
         }
     </pre>
     <p>Those appear pretty similar, and you might think they are equally good. However, the timing information suggests otherwise:</p>
-    <centre><table align="centre" border="02" cellpadding="02" cellspacing="02">
+    <center><table align="center" border="02" cellpadding="02" cellspacing="02">
         <tr>
             <th></th> <th bgcolor="gray">2 by 3 map</th><th bgcolor="gray">3 by 3 map</th><th bgcolor="gray">3 by 4 map</th></tr>
           <tr> 
             <td bgcolor="gray">Method 1:</td><td>60 ms</td><td>940 ms</td><td>60530 ms (1 minute)</td></tr>
             <tr><td bgcolor="gray">Method:2</td><td>0 ms</td><td>0 ms</td><td>0 ms</td></tr>
-        </centre>
+        </center>
     </table>
     <p>The zeros in the above table indicate times too short to measure (less than 1 millisecond). Why this huge difference? Either of these methods could have exponential growth. Eliminating a node automatically eliminates all of its descendents, and this will often prevent exponential growth. Conversely, by waiting to check until a leaf node is reached, exponential growth is practically guaranteed.<i>If there is any way to eliminate children (reduce the set of choices), do so!</i></p>
     <br>
