@@ -64,7 +64,7 @@ body {
     position: block;
     width: 200vw;
     height: 350px;
-    margin-top: 0;
+    margin-top: 60vh;
     background-image: url(./road.jpg);
     background-repeat: repeat;
     animation: linear road2 3s infinite;
