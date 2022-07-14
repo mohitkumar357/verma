@@ -1,0 +1,192 @@
+body {
+    text-align: center;
+    background-color: yellow;
+    height: 160vh;
+}
+
+.head1 {
+    
+    margin-left: calc(50vw - 300px);
+    width: 600px;
+    height: 100vh;
+    
+   
+    
+}
+
+.flex-container1 {
+    margin-top: 60px;
+    /* margin-left: 10vw; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.flex-container2 {
+    margin-top: 60px;
+    /* margin-left: 10vw; */
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.flex-container3 {
+    margin-top: 60px;
+    /* margin-left: 10vw; */
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.flex-container4 {
+    margin-top: 60px;
+    /* margin-left: 10vw; */
+    display: flex;
+    flex-flow: row wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.item1 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(37, 71, 84); 
+    transform:skewX(20deg);
+
+    animation: i1 3s linear infinite;
+    
+}
+
+@keyframes i1 {
+    0% {
+        transform: skewX(-20deg);
+    }
+
+    50% {
+        transform: skewX(20deg);
+    }
+
+    100% {
+        transform: skewX(-20deg);
+    }
+}
+
+
+.item2 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(183, 183, 183);
+    animation: i2 3s linear infinite;
+}
+
+@keyframes i2 {
+    0% {
+        transform: skewY(-20deg);
+    }
+
+    50% {
+        transform: skewY(20deg);
+    }
+
+    100% {
+        transform: skewY(-20deg);
+    }
+}
+
+.item3 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(37, 71, 84);
+    animation: i3 2.5s infinite;
+    animation-timing-function: cubic-bezier(0.2, 0.64, 0.43, 1.02);;
+
+}
+
+@keyframes i3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.item4 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(37, 71, 84);
+    animation: i4 4s linear infinite;
+}
+
+@keyframes i4 {
+    0% {
+        transform: rotateX(0deg);
+    }
+
+    50% {
+        transform: rotateX(70deg);
+    }
+
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+.item5 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(97, 21, 42);
+    animation: i5 4s linear infinite;
+}
+
+@keyframes i5 {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    50% {
+        transform: rotateY(70deg);
+    }
+
+
+    100% {
+        transform: rotateY(0deg);
+    }
+}
+
+.item6 {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(50, 184, 92);
+    animation: i6 5s linear infinite;
+}
+
+@keyframes i6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(110deg);
+    }
+
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+
+.item1:hover {
+    transform:skewX(-20deg);
+}

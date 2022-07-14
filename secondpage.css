@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: yellow;
+}
+
+
+.flex-container {
+    margin-top: 80px;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    align-content: center;
+}
+
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    background: rgb(108, 178, 108);
+    
+}
+
+.item {
+    transition: all 3.5s linear;
+}
+
+.item:hover {
+    width: 600px;
+}
+
+.item1 {
+    transition: all 3.5s linear;
+}
+
+.item1:hover {
+    width: 400px;
+    height: 400px;
+}

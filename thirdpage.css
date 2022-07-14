@@ -1,0 +1,154 @@
+body {
+    background-image: url(./sky.jpg);
+    z-index: 0;
+}
+
+.head1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 45%;
+    margin-left: 27%;
+    z-index: 10;
+}
+
+.fix1, .fix2, .fix3 {
+    font-size: 45px;
+    padding: 0;
+    margin: 7px;   
+}
+
+.fix1 {
+    background-color: rgb(255, 123, 0);
+}
+
+.fix2 {
+    background-color: white;
+}
+
+.fix3 {
+    background-color: green;
+}
+
+.sun {
+    position: relative;
+    left: 75%;
+    bottom: 20px;
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.city {
+    position: block;
+    /* bottom: 40px; */
+    width: 200%;
+    height: 200px;
+    background-image: url(./city.png);
+    background-repeat: repeat;
+    z-index: 1;
+    animation: city1 8s linear infinite;
+}
+
+@keyframes city1 {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-600px);
+    }
+}
+
+.road {
+    position: block;
+    width: 200vw;
+    height: 350px;
+    margin-top: 0;
+    background-image: url(./road_720.jpg);
+    background-repeat: repeat;
+    animation: linear road2 3s infinite;
+    
+}
+
+@keyframes road2 {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-1200px);
+    }
+}
+
+.car1 {
+    width: 400px;
+    height: 26vh;
+    position: absolute;
+    top: 58vh;
+    left: 30vw;
+    animation: linear car2 0.8s infinite;
+}
+
+@keyframes car2 {
+    from {
+        top: 58vh;
+    }
+
+    to {
+        top: 57.7vh;
+    }
+}
+
+@keyframes flag2 {
+    from {
+        top: 53vh;
+    }
+
+    to {
+        top: 52.8vh;
+    }
+}
+
+
+.wheel1 {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 72vh; 
+    left: 32.4vw;
+    animation: linear wheel3 1s infinite;
+}
+
+.wheel2 {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 72vh; 
+    left: 49.4vw;
+    animation: linear wheel3 1s infinite;
+}
+
+@keyframes wheel3 {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.flag1 {
+    width: 40px;
+    height: 20vh;
+    position: absolute;
+    top: 53vh;
+    left: 53.5vw;
+    animation: linear flag2 0.8s infinite;
+}
+
+
+
+
+
