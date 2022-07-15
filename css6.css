@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    
+}
+.container{
+   background-image: url("pic-1.png");
+  height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    filter: saturate(1.8);
+
+}
+.log{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 700px;
+}
+a{
+    padding-left: 80px;
+    text-decoration-line: none;
+    color: white;
+}
+.onn{
+    padding:30px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-end;
+}
+.menu{
+    margin-top: -3px;
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    display: inline;
+}
+p{
+    color: white;
+}
+.kiss{
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-weight: bold;
+    box-shadow: 8px 8px 10px grey;
+}
+.des{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+h3, .me{
+    position: relative;
+    left: 30px;
+}
+.me{
+    padding-right: 30px;
+    line-height: 35px;
+}
+.images{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:end;
+    padding-right: 80px;
+    margin-top: -450px;
+}
+.h3 , .me:hover{
+    color: black;
+    font-weight: bold;
+}
+ .pic , .app , .appl , .apple{
+width: 250px;
+    height: 250px;
+    color: white;
+    border: 1px solid none;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    background-size: cover;
+    transition-duration: 0.3s;
+
+}
+.pic{
+    background-image: url(pic-3.png);
+    /* width: 250px;
+    height: 250px;
+    color: white;
+    border: 1px solid none;
+    box-shadow: 5px 5px 20px grey;
+    border-radius: 10px;
+    background-size: cover;
+    transition-duration: 0.3s; */
+    
+
+} 
+.pic:hover{
+    margin-top: -20px;
+}
+.app:hover{
+    margin-top: -20px;
+}
+.appl:hover{
+    margin-top: 20px;
+}
+.apple:hover{
+    margin-top: 20px;
+}
+
+.app{
+    background-image: url(shara\ desert.jpg);
+    /* width: 250px;
+    height: 250px;
+    color: white;
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    background-size: cover;
+    transition-duration: 0.3s; */
+    margin-left: 40px;
+
+    
+
+}
+.appl{
+    background-image: url(pic-2.png);
+    /* width: 250px;
+    height: 250px;
+    color: white;
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px grey;
+    background-size: cover;
+    transition-duration: 0.3s; */
+    margin-top: 40px;
+    
+
+
+}
+.apple{
+    background-image: url(pic-4.png);
+    /* width: 250px;
+    height: 250px;
+    color: white;
+    border: 1px solid none;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 5px 5px 20px grey;
+    transition-duration: 0.3s; */
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+@media (max-width:900px)
+{
+    .log{
+    
+        padding-right: 110px;
+       
+    }
+    
+    .des{
+        margin-top: -30px;
+        
+    }
+    h1{
+
+        font-size: 40px;
+      
+    }
+    .container{
+        width: 900px;
+        background-size: 900px 600px;
+        
+    }
+    .images{
+           display: grid;
+           grid-template-columns: auto;
+           margin-top: 30px;
+           margin-right: -40px;
+           justify-content: center;
+       
+    }
+    .container{
+        height: auto;
+        background-repeat: repeat-y;
+    }
+    .pic , .app , .appl , .apple {
+        width: 500px;
+        height: 200px;
+        margin-left: 40px;
+        background-size: 500px 300px;
+    }
+    .app , .appl , .pic , .apple:hover{
+        margin-top: 20px;
+        transition-duration: 0.3s;
+    }
+    /* .me:hover{
+        color: red;
+
+    } */
+    /* .app{
+        width: 500px;
+        height: 200px;
+        margin-top: 50px;
+        background-size: 500px 300px;
+
+
+    }
+    .appl{
+        width: 500px;
+        height: 200px;
+        margin-left: 40px;
+        background-size: 500px 300px;
+
+    }
+    .apple{
+        width: 500px;
+        height: 200px;
+        background-size: 500px 300px;
+
+    } */
+   
+}
