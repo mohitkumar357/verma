@@ -18,7 +18,7 @@ body{
     margin-right: -70px;
 }
 
-.class2{
+.class-2{
     font-size: 21px;
     height: 300px;
     width: 190px;
@@ -60,7 +60,7 @@ body{
 .flex-container{
   
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
 }
 
@@ -158,7 +158,239 @@ a{
     border: tomato solid 1px;
     box-shadow: 2px 2px 5px lightgray;
 }
-.filtera{
+body{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.class0{
+ position: relative;
+ top: 150px;
+}
+
+.class1{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    position: relative;
+    left: -40px;
+    margin-right: -70px;
+    color: black;
+    font-size: 45px;
+}
+.class-2{
+    font-size: 21px;
+    height: 300px;
+    width: 190px;
+    border: solid 2px tomato;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgb(116, 114, 114);
+    color: red;
+    margin: 20px;
+    padding: 15px 10px 0px 10px;
+    text-align: center;
+}
+
+.tripp{
+    text-decoration-line: none;
+    color: red;
+}
+.col{
+  color: grey;
+  font-size: 45px;  
+}
+.box{
+    position: absolute;
+    top: 5px;
+    left: 700px;
+    margin-top: 15px;
+}
+.alpha{
+    color: red;
+    font-size: 35px;
+    position: absolute;
+    padding-top: 20px;
+    left: 750px;
+}
+.additem{
+    margin-left: 250px;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    top: 15px;
+}
+
+.addme{
+    position: relative;
+    top: 20px;
+    color: red;
+    font-size: 30px;
+}
+
+.plus{
+    position: relative;
+    left: 120px;
+    top: 90px;
+}
+
+.first{
+    position: relative;
+    top: 35px;
+    background-color: white;
+    height: 50px;
+    width: 30px;
+    left: 43%;
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    display: inline;
+    padding: 0px 20px;
+}
+.one{
+    position: absolute;
+    left: 5%;
+}
+.line{
+    text-decoration-line: line-through;
+    font-size: 23 px;
+    font-weight: bolder;
+    color: tomato;
+}
+.line2{
+    color: black;
+}
+
+.flex-container{
+    display: flex;
+    height: 50px;
+    padding: 2rem;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+@media (min-width:650px) and (max-width:1050px){
+    .class-2{
+        font-size: 21px;
+        height: 220px;
+        width: 110px;
+        border: solid 2px tomato;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px rgb(90, 89, 89);
+        color: red;
+        margin: 20px;
+        padding: 10px 7px 0px 7px;
+        text-align: center;
+    }
+
+    .line{
+        text-decoration-line: line-through;
+        font-size: 18px;
+        font-weight: bolder;
+        color: tomato;
+    }
+     
+    .line2{
+        color: black;
+        font-size: 15px;
+    }
+    /* .paris{
+        height: 200px;
+        width: 100px;
+        border: solid 2px tomato;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px rgb(172, 169, 169);
+        padding: 0px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        left: 400px;
+        top: 100px;
+        position: absolute;
+        color: blue;
+    } */
+
+
+}
+
+@media (min-width:1050px) and (max-width:1450px){
+    .class-2{
+        font-size: 21px;
+        height: 30px;
+        width: 500px;
+        border: solid 2px tomato;
+        border-radius: 7px;
+        box-shadow: 5px 5px 5px rgb(116, 114, 114);
+        color: red;
+        margin: 20px;
+        padding: 15px 10px 0px 10px;
+        text-align: center;
+    }    
+    .line{
+        display: none;
+    }
+    .line2{
+       display: none;
+    }
+    input[type="checkbox"]{
+        display: none; 
+    }
+
+    .addme{
+        position: relative;
+        top: 20px;
+        color: red;
+        font-size: 20px;
+    }
+    .col{
+        color: grey;
+        font-size: 30px;  
+      }
+.co{
+    color: black;
+    font-size: 30px ;
+}
+
+
+}
+
+
+.flex1{
+    padding-top: 2rem;
+    color: rgb(209, 64, 38);
+    border: 2px solid tomato;
+    border-radius: 10px;
+    flex-flow: row wrap;
+    align-content: space-around;
+    margin: 30px;
+    box-shadow: 10px 10px 10px lightgray;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.paris{
+    height: 270px;
+    width: 150px;
+    border: solid 2px tomato;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(172, 169, 169);
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    left: 670px;
+    top: 100px;
+    position: absolute;
+    color: red;
+}
+
+.filter{
+
+    filter: blur(10px);
+}
+
+/*.filter-a{
 
     height: 150px;
     width: 270px;
@@ -168,10 +400,12 @@ a{
     position: absolute;
     left: 650px;
     top: 200px;
+    text-align: center;
+    color: red;
     box-shadow: 8px 8px 8px lightgray;
 }
 
-.filterb{
+.filter-b{
 
     height: 30px;
     width: 80px;
@@ -185,3 +419,9 @@ a{
     align-items: center;
     font-size: 15px;    
 }
+
+.textbox{
+    border: tomato solid 1px;
+    box-shadow: 2px 2px 5px lightgray;
+}*/
+
