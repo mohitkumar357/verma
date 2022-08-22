@@ -106,7 +106,7 @@ body{
 
 .flex-container{
     display: flex;
-    height: 50px;
+    height: 300px;
     padding: 2rem;
     margin-right: 65px;
     flex-flow: column wrap;
