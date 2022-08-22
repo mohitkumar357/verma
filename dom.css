@@ -1,0 +1,19 @@
+.flex-container{
+    padding: 1rem;
+    background-color: hsl(239, 93%, 49%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.flex-item{
+    width: 270px;
+    height: 300px;
+    padding: 1rem;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    border: 5px solid hsl(16, 91%, 48%);
+    border-radius: 10px;
+    background-color: hsl(88, 95%, 43%);
+    margin: 5px;
+}
