@@ -1,0 +1,36 @@
+.box {
+    height:100px;
+    width:100px;
+    background-color: rgba(255, 0, 242, 0.759);
+}
+.cards {
+    display:flex;
+    flex-direction:row;
+   
+}
+ .card {
+    height:200px;
+    width:200px;
+    border:2px solid rgb(0, 255, 21);
+    background-color: rgba(183, 255, 0, 0.092);;
+    border-radius: 8px;
+    margin:30px;
+} 
+/* #btn {
+    background-color: aqua;
+    color:red;
+    font-size:20px;
+    padding:20px;
+} */
+
+#clock {
+    color:#d99eeb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:50px;
+    height:50vh;
+    width:50%;
+    background:#081114;
+
+}
